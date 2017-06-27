@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/screensaver_macos
+   */site-packages/screensaver_macos
+
+[run]
+branch = true
+source =
+    screensaver_macos
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
